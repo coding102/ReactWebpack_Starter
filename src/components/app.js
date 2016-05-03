@@ -1,4 +1,5 @@
 import React from 'react';
+import CreateTodo from './create-todo';
 import TodosList from './todos-list';
 
 
@@ -28,6 +29,7 @@ constructor(props) {
           return (
                <div>
                     <h1>React ToDo App</h1>
+                    <CreateTodo />
                     <TodosList todos={this.state.todos} />
                </div>
           )
